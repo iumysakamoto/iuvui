@@ -1,0 +1,35 @@
+@import "../../global/styled.scss";
+
+.Nav {
+    background-color: $primaryColor;
+    padding-bottom: 82px;
+    
+    h4 {
+        color: $white;   
+        font-family: 'museo-sans-display', sans-serif;
+        font-weight: 800;
+        font-style: normal; 
+        text-transform: uppercase;
+    }
+
+    ul li  {
+        display: inline;
+        margin-left: 12px;
+        margin-right: 12px;
+        cursor: pointer;
+
+        a {
+            color: $white;   
+            font-weight: 600;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    p {
+        color: $white;   
+        font-weight: 600;
+    }
+}

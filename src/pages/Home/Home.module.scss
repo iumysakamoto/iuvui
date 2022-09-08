@@ -1,0 +1,19 @@
+@import "../../global/styled.scss";
+
+.IuHome {
+    h4 {
+        color: $black;   
+        font-family: 'museo-sans-display', sans-serif;
+        font-weight: 800;
+        font-style: normal; 
+    }
+
+    .NumberTittle {
+        color: $black;   
+        font-family: 'museo-sans-display', sans-serif;
+        font-weight: 800;
+        font-style: normal; 
+        text-decoration: underline;
+        text-decoration-color: $secondaryColor;
+    }
+}

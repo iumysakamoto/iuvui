@@ -1,0 +1,26 @@
+@import "../../global/styled.scss";
+
+.PersonaCard {
+    border-radius: 8px;
+    cursor: pointer;
+    height: 100%;
+    background-color: $silver;
+    padding: 16px;
+
+    .NameUser {
+        margin-left: 16px;
+        color: $black;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .DescriptionUser {
+        margin-left: 16px;
+        color: $gray;
+    }
+
+    ul li {
+        display: inline-block;
+    }
+}

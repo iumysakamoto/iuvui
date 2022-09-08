@@ -1,0 +1,34 @@
+@import "../../global/styled.scss";
+
+.iuHomeHeader {
+    margin-top: -81px;
+    
+    .iuHomeBg {
+        padding: 32px;
+        background-color: $silver;
+        border-radius: 20px;
+        height: 162px;
+        display: grid; 
+        align-items: center;
+
+        h1 {
+            text-align: center;
+            color: $black;   
+            font-family: 'museo-sans-display', sans-serif;
+            font-weight: 800;
+            font-style: normal; 
+        }
+
+        h6 {
+            text-align: center;
+            content: "";
+            color: $black;   
+            font-weight: 600;
+
+            &:after {
+                margin-left: 8px;
+                content: "\1F49C";
+            }
+        }
+    }
+}
